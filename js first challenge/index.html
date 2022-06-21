@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+
+
+  <div id="screen" class="screen" onclick="iconClick(event)">
+
+    <div id="icon0" class="icon"></div>
+
+    <div id="icon1" class="icon"></div>
+
+    <div id="icon2" class="icon"></div>
+
+    <div id="tap"></div>
+
+  </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+/*********************** JUST FOCUS ************************/
+
+<!-- 
+
+  device => 1080 x 1920
+
+  pixels numbered from 0
+
+  N icons on screen numbered from 0 to N-1
+
+  icons position described by arrays A & B
+
+  icons number ( J ) A[J] & B[J] is the icons position
+
+  to click the icon you have to click on 20 px circle area centered on the icon position => one icon witin range of the tap
+
+ -->

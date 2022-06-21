@@ -1,0 +1,21 @@
+input {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  padding: 10px 40px;
+  background-color: #b8b8ee;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

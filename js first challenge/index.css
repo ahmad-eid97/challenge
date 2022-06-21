@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.screen {
+  width: 1920px;
+  height: 1080px;
+  background-color: #eee;
+  position: relative;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
